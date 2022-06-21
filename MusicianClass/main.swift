@@ -7,9 +7,9 @@
 
 import Foundation
 
-let james = Musicians()
+let james = Musicians(nameInit: "James Hetfield", ageInit: 50, instrumentInit: "Guitar", typeInit: .Vocalist)
 
-james.
-
-// TEST
+print(james.type)
+print(james.age)
+james.sing()
 
