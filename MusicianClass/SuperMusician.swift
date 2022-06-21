@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+class SuperMusicians : Musicians {
+    
+    func sing2() {
+        print("Enter Night")
+        
+    }
+    
+    override func sing() {
+        super.sing()
+        print("Exit Light")
+    }
+    
+    
+}

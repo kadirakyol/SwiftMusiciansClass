@@ -13,3 +13,10 @@ print(james.type)
 print(james.age)
 james.sing()
 
+print("")
+
+let kirk = SuperMusicians.init(nameInit: "Kirk Hammetth", ageInit: 55, instrumentInit: "Guitar", typeInit: .LeadGuitar)
+
+kirk.sing()
+// kirk.sing2()
+
